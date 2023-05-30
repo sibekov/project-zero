@@ -61,8 +61,35 @@ h2 {
 
 /* our work image*/
 
+#work-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #work-image {
+
     height: 600px;
     width: 100%;
     background: url('../images/Do It The Modern Way..png') no-repeat center center;
+
+    /*adding animation*/
+    animation-name: work-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+/*crate the level of zoom for work image for animation */
+@keyframes work-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+
+    }
 }
