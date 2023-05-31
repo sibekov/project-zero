@@ -121,24 +121,38 @@ h2 {
 }
 
 /*severse*/
+
 #services {
     height: 600px;
+
 }
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 30%;
     float: left;
 
 
 
 }
 
+
 #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 30%;
     float: right;
-    background-color: green;
+
+
+
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 30%;
+    margin: 0 auto;
+
+
+
 }
 
 hr {
@@ -147,12 +161,6 @@ hr {
     margin: 5px 0;
 }
 
-#center-about {
-    width: 33%;
-    background-color: silver;
-    margin: 0 auto;
-
-}
 
 .left-about-heading {
     width: 60%;
@@ -160,4 +168,26 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.center-about-heading {
+    width: 60%;
+    line-height: 20px;
+    margin: 0 auto;
+
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
