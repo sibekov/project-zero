@@ -194,14 +194,36 @@ hr {
 
 #myfoot {
 
-    color: blue;
-    height: 150px;
+
+    margin-top: 50px;
+    background-color: blue;
+
 
 }
+
+footer a {
+    color: white;
+
+}
+
+
 
 .social-networks {
     text-align: center;
 
+
+}
+
+
+#myterms {
+    clear: both;
+}
+
+#myterms p {
+    clear: both;
+    height: 600px;
+    text-align: center;
+    padding-top: 300px;
 
 }
 
@@ -282,5 +304,14 @@ hr {
     .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+
+    #fotos {
+        column-count: 2;
     }
 }
