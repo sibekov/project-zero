@@ -38,6 +38,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    margin-left: 30px;
 }
 
 #menu li {
@@ -117,4 +118,46 @@ h2 {
         transform: scale(1.1);
 
     }
+}
+
+/*severse*/
+#services {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+
+
+
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#center-about {
+    width: 33%;
+    background-color: silver;
+    margin: 0 auto;
+
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
