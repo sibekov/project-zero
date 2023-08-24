@@ -81,7 +81,7 @@ h2 {
 
     height: 600px;
     width: 100%;
-    background: url('../images/Do It The Modern Way..png') no-repeat center center;
+    background: url('/workspaces/project-zero/assets/images/doitthemodernway.png') no-repeat center center;
 
     /*adding animation*/
     animation-name: work-zoom;
