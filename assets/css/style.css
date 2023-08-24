@@ -10,7 +10,7 @@ body {
 
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #e62020;
+    color: #252525;
 
 }
 
@@ -64,9 +64,9 @@ h2 {
 /* our work image*/
 
 #work-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+    height: auto;
+    width: 600px;
+    # overflow: auto;
     position: relative;
 
 }
@@ -243,8 +243,16 @@ footer a {
 #fotos {
     clear: both;
     line-height: 0;
-    column-count: 3;
+    column-count: 2;
     column-gap: 0;
+}
+
+
+
+
+
+#fotos>img {
+    width: 100%;
 }
 
 
