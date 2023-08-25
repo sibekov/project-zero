@@ -16,8 +16,8 @@ body {
 }
 
 #logo {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     float: left;
 
 }
@@ -38,7 +38,7 @@ h2 {
 
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
 }
 
@@ -66,16 +66,16 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*.active {
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
-*/
+
 
 /* our work image*/
 
 #work-outer {
     clear: both;
-    height: 900px;
+    height: 600px;
     width: 100%;
     /*overflow: hidden;*/
     position: relative;
