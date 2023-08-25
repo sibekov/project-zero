@@ -13,11 +13,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #252525;
-
 }
-
-
-
 
 #logo {
     width: 120px;
@@ -39,15 +35,11 @@ h2 {
 
 /* navigation links*/
 
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-}
 
-#menu,
-#logo {
-    line-height: 75px;
-    margin-left: 30px;
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
 }
 
 #menu li {
@@ -56,18 +48,28 @@ h2 {
     margin-right: 30px;
 }
 
+
+#menu,
+#logo {
+    line-height: 75px;
+    margin-left: 30px;
+}
+
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
+
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active {
+/*.active {
     border-bottom: 1px solid #3a3a3a;
 }
+*/
 
 /* our work image*/
 
