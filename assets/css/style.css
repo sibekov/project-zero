@@ -107,7 +107,7 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 600px;
+    width: 500px;
     height: 200px;
     padding-top: 100px;
     padding-left: 10px;
@@ -266,8 +266,8 @@ footer a {
 
 @media screen and (max-width:1200px) {
     #services {
-        width: 90%;
-        height: 800px;
+        width: 65%;
+        height: 1200px;
         margin: 0 auto;
     }
 
@@ -295,7 +295,7 @@ footer a {
 
     #menu {
         clear: left;
-        float: left;
+        float: center;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -326,9 +326,21 @@ footer a {
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:950px) {
 
     #fotos {
         column-count: 2;
     }
+
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+
 }
