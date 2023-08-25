@@ -77,7 +77,6 @@ h2 {
     clear: both;
     height: 600px;
     width: 100%;
-    /*overflow: hidden;*/
     position: relative;
     padding-top: 5px;
 
@@ -91,13 +90,13 @@ h2 {
 
 #work-image {
 
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/doitthemodernway.png') no-repeat center center;
 
     /*adding animation*/
     animation-name: work-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
@@ -124,7 +123,7 @@ h2 {
 /*crate the level of zoom for work image for animation */
 @keyframes work-zoom {
     from {
-        transform: scale(1);
+        transform: scale(0.0);
     }
 
     to {
