@@ -210,8 +210,6 @@ hr {
     margin-top: 50px;
     background-color: rgba(59, 163, 182, 0.7);
 
-
-
 }
 
 footer a {
@@ -223,8 +221,9 @@ footer a {
 
 .social-networks {
     text-align: center;
-
-
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
