@@ -15,6 +15,23 @@ body {
 }
 
 /*headings and logo*/
+.myheading {
+    background-color: rgb(125, 125, 205);
+    /*margin: auto;
+    text-align: center;
+    font-size: 100%;
+    clear: both;
+    position: relative; */
+}
+
+
+#logo {
+    width: 15%;
+    height: 15%;
+    float: left;
+
+}
+
 
 h1,
 h2 {
@@ -24,11 +41,7 @@ h2 {
     color: #252525;
 }
 
-#logo {
-    float: left;
-    font-size: 100%;
 
-}
 
 /* navigation links*/
 
