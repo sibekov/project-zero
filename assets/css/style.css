@@ -6,6 +6,8 @@
     border: none
 }
 
+
+
 body {
 
     font-family: Lato, sans-serif;
@@ -14,20 +16,12 @@ body {
 
 }
 
-/*headings and logo*/
-.myheading {
-    background-color: rgb(125, 125, 205);
-    /*margin: auto;
-    text-align: center;
-    font-size: 100%;
-    clear: both;
-    position: relative; */
-}
+
 
 
 #logo {
-    width: 15%;
-    height: 15%;
+    width: 120px;
+    height: 120px;
     float: left;
 
 }
