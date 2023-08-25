@@ -306,19 +306,21 @@ footer a {
     }
 
     .left-about-heading,
-    .right-about-heading {
-
+    .right-about-heading,
+    .center-about-heading {
         width: inherit;
     }
 
     .left-about-heading h2,
-    .right-about-heading h2 {
+    .right-about-heading h2,
+    .center-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
     .left-about-heading p,
-    .right-about-heading p {
+    .right-about-heading p,
+    .center-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
@@ -341,6 +343,25 @@ footer a {
         line-height: 25px;
     }
 
+    .left-about-heading,
+    .right-about-heading,
+    .center-about-heading {
+        width: inherit;
+    }
 
+    .left-about-heading h2,
+    .right-about-heading h2,
+    .center-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p,
+    .center-about-heading p {
+
+        text-align: center;
+        padding: 0 20px;
+    }
 
 }
