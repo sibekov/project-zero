@@ -254,13 +254,10 @@ footer a {
 #fotos {
     clear: both;
     line-height: 0;
-    column-count: auto;
+    column-count: 4;
     column-gap: 0;
+
 }
-
-
-
-
 
 #fotos>img {
     width: 100%;
