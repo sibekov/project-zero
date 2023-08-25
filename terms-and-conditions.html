@@ -29,13 +29,32 @@
         </nav>
     </header>
 
-    <section id="myterms">
-        <p>
-            We are not a financial services provider. We will not find customers for you. All persons must be older than
-            the age of 18.
-        </p>
-        <label for="link">I agree.</label>
-        <form action="https://formdump.codeinstitute.net" method="POST"></form>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+
+
+            <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
+
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" name="last_name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" class="text-input" id="email" name="email_address" required>
+
+            <label for="road">Digital Marketing</label>
+            <input type="radio" id="Digital Marketing" name="running_preference" value="Digital Marketing" required>
+            <label for="trail">Management Training</label>
+            <input type="radio" id="Management Training" name="running_preference" value="Management Training" required>
+            <label for="both">Social Media Management</label>
+            <input type="radio" id="Social Media Management" name="running_preference" value="Social Media Management"
+                required>
+
+
+            <input class="join-button" type="submit" value="Let's Make Money!">
+        </form>
     </section>
 
     <footer id="myfoot">
