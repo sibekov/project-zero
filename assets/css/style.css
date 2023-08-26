@@ -1,44 +1,37 @@
+/*imported google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     margin: 0;
     padding: 0;
     border: none
 }
 
-
-
+/*Body*/
 body {
-
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: rgba(59, 163, 182)
 }
 
+/*logo*/
 #logo {
     width: 100px;
     height: 100px;
     float: left;
-
 }
 
-
+/*headers h1 and h2 styled the same*/
 h1,
 h2 {
     font-family: Owsald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    /*color: #13b1ae;*/
-
     color: rgba(59, 163, 182)
 }
 
-
-
 /* navigation links*/
-
-
-
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
@@ -50,19 +43,16 @@ h2 {
     margin-right: 30px;
 }
 
-
 #menu,
 #logo {
     line-height: 75px;
     margin-left: 30px;
 }
 
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 
 #menu a:hover {
     border-bottom: 1px solid black;
@@ -72,16 +62,13 @@ h2 {
     border-bottom: 1px solid black;
 }
 
-
-/* our work image*/
-
+/* our work outer containing both the welcome text and background image*/
 #work-outer {
     clear: both;
     height: 600px;
     width: 100%;
     position: relative;
     padding-top: 5px;
-
 }
 
 #cover-text,
@@ -89,19 +76,18 @@ h2 {
     color: rgb(232, 40, 40);
 }
 
-
+/*background image*/
 #work-image {
-
     height: 100%;
     width: 100%;
     background: url('../images/doitthemodernway.png') no-repeat center center;
-
     /*adding animation*/
     animation-name: work-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
+/*cover text*/
 #cover-text {
     font-size: 100%;
     font-family: Oswald, sans-serif;
@@ -118,10 +104,7 @@ h2 {
     position: absolute;
     color: blue;
     overflow: auto;
-
 }
-
-
 
 /*crate the level of zoom for work image for animation */
 @keyframes work-zoom {
@@ -135,43 +118,34 @@ h2 {
     }
 }
 
-/*severse*/
-
+/*sevirses the main content*/
 #services {
     height: 350px;
-
 }
 
 #left-about {
-
     width: 33%;
     float: left;
 }
 
-
 #right-about {
-
     width: 33%;
     float: right;
 }
 
 #center-about {
-
     width: 33%;
     margin: 0 auto;
-
-
-
 }
 
+/*horizontal underline to remind user on which page they are*/
 hr {
     border-top: 2px solid black;
     width: 100%;
     margin: 5px 0;
-
 }
 
-
+/*styling the headings for the services*/
 .left-about-heading {
     width: 60%;
     float: right;
@@ -179,7 +153,6 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
-
 
 .right-about-heading {
     width: 60%;
@@ -194,29 +167,25 @@ hr {
     float: center;
     line-height: 20px;
     margin: 0 auto;
-
-
-
 }
 
+/*welcome message at the middle of the page*/
 #welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
 
+/*The footer*/
 #myfoot {
-
     background-color: rgba(59, 163, 182, 0.7);
-
 }
 
 footer a {
     color: blue;
 }
 
-
-
+/*social media icons*/
 .social-networks {
     text-align: center;
     padding: 20px 0;
@@ -224,44 +193,28 @@ footer a {
     justify-content: space-evenly;
 }
 
-
-#myterms {
-    clear: both;
-}
-
-#myterms p {
-    clear: both;
-    height: 600px;
-    text-align: center;
-    padding-top: 300px;
-
-}
-
 .social-networks>li {
-
     display: inline;
-
 }
 
 .social-networks i {
-
     font-size: 160%;
-
 }
 
+/*Gallery*/
 #fotos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-
 }
 
+/*Gallery stylling ensuring the image full the screens no gaps*/
 #fotos>img {
     width: 100%;
 }
 
-
+/*mdedia queries to adjust to smaller screens, less than 1200px like tablets*/
 @media screen and (max-width:1200px) {
     #services {
         width: 65%;
@@ -269,12 +222,15 @@ footer a {
         margin: 0 auto;
     }
 
-
+    /*Welcome text for smaller screens adjusted and color changed*/
     #welcome {
         padding: 30px 0;
         margin: 0;
+        font-size: 60%;
+        color: rgb(232, 40, 40);
     }
 
+    /*main content ajusted for smaller screens*/
     #left-about,
     #right-about {
         width: 100%;
@@ -283,14 +239,13 @@ footer a {
     }
 
     #center-about {
-
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-
+    /*menu for smaller screens*/
     #menu {
         clear: left;
         float: center;
@@ -299,10 +254,7 @@ footer a {
         line-height: 25px;
     }
 
-    #cover-text {
-        left: 0;
-    }
-
+    /*main content for smaller screens headings*/
     .left-about-heading,
     .right-about-heading,
     .center-about-heading {
@@ -323,13 +275,13 @@ footer a {
         padding: 0 20px;
     }
 
+    /*container for background image and welcome text for smaller screens*/
     #work-outer {
         clear: both;
-        height: 600px;
+        height: 100%;
         width: 100%;
         position: relative;
         padding-top: 5px;
-
     }
 
     #cover-text,
@@ -337,25 +289,24 @@ footer a {
         color: rgb(232, 40, 40);
     }
 
-
+    /*Background image for smaller screens styling*/
     #work-image {
-
         height: 100%;
         width: 100%;
         background: url('../images/doitthemodernway.png') no-repeat center center;
-
         /*adding animation*/
         animation-name: work-zoom;
         animation-duration: 10s;
         animation-fill-mode: forwards;
     }
 
+    /*Cover text for smaller screensstyling*/
     #cover-text {
         font-size: 100%;
         font-family: Oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 4%;
-        width: 25%;
+        width: 50%;
         height: 40%;
         padding-top: -2%;
         padding-left: 10px;
@@ -366,18 +317,18 @@ footer a {
         position: absolute;
         color: blue;
         overflow: auto;
-
     }
-
 }
 
+/*media queries for adjusting to mobile phones screens max with less than 900px*/
 @media screen and (max-width:900px) {
 
+    /*Gallery for mobile phones*/
     #fotos {
         column-count: 2;
     }
 
-
+    /*menu for mobile phones*/
     #menu {
         clear: left;
         float: left;
@@ -386,6 +337,7 @@ footer a {
         line-height: 25px;
     }
 
+    /*main content styling for mobile phone screens*/
     .left-about-heading,
     .right-about-heading,
     .center-about-heading {
@@ -402,70 +354,74 @@ footer a {
     .left-about-heading p,
     .right-about-heading p,
     .center-about-heading p {
-
         text-align: center;
         padding: 0 20px;
     }
 
+    /*container for both background picture and the cover message*/
     #work-outer {
         clear: both;
         height: 600px;
         width: 100%;
         position: relative;
         padding-top: 5px;
-
     }
 
+    /*cover text stylling for mobile phone screens*/
     #cover-text,
     #cover-text h2 {
         color: rgb(232, 40, 40);
     }
 
-
+    /*background image for mobile phones screens*/
     #work-image {
-
         height: 100%;
         width: 100%;
         background: url('../images/doitthemodernway.png') no-repeat center center;
-
         /*adding animation*/
         animation-name: work-zoom;
         animation-duration: 10s;
         animation-fill-mode: forwards;
     }
 
+    /*Cover text stylling for smaller screens*/
     #cover-text {
         font-size: 100%;
         font-family: Oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 4%;
-        width: 55%;
+        width: 50%;
         height: 40%;
         padding-top: -2%;
-        padding-left: auto;
+        padding-left: 10px;
         background-color: rgba(59, 163, 182, 0.9);
         bottom: 57%;
-        left: 25%;
+        left: 40%;
         text-align: center;
         position: absolute;
         color: blue;
         overflow: auto;
-
     }
 
+    /*Welcome text for smaller screens adjusted and color changed*/
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+        font-size: 60%;
+        color: rgb(232, 40, 40);
+    }
 }
 
-/* Form */
-
+/* Sign up Form background*/
 .form-section {
     clear: left;
     background: url("../images/pexelsbenceszemerey6804255.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
-
+    height: 50%;
 }
 
+/*Form completion and submition section*/
 .signup-form {
     margin: 150px 10% 0 0;
     color: blue;
@@ -476,11 +432,13 @@ footer a {
     padding: 30px;
 }
 
+/*form headings*/
 .signup-form>h2 {
     color: rgb(232, 40, 40);
     margin-bottom: 20px;
 }
 
+/*imput text*/
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -491,10 +449,12 @@ footer a {
     border-radius: 2px;
 }
 
+/*hover response for the user to see which feald they are completing*/
 .text-input:hover {
     border-color: rgb(232, 40, 40);
 }
 
+/*submission button*/
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -502,11 +462,11 @@ footer a {
     text-align: center;
     font-size: 100%;
     background-color: rgb(232, 40, 40);
-    ;
     color: blue;
     display: block;
 }
 
+/*hover response for the user to see they are about to submit the form*/
 .join-button:hover {
     background-color: blue;
     color: rgb(232, 40, 40);
