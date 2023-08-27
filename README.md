@@ -86,13 +86,19 @@ Please note that 6 errors have been fixed already see section Bugs for details. 
 
 The colours and fonts I have selected they perform well under the Light house in devtools.
 
+### Accessibility of 96% on home page which is very good.
+
 <img src="assets/images/lighthouseindex.JPG" alt="Accessibility home page">
+### Accessibility of 96% also on the Gallery page which is very good.
 
 <img src="assets/images/lighthousegallery.JPG" alt="Accessibility sign gallery">
+### Accessibility of 96% also on the Gallery page which is very good.
 
 <img src="assets/images/lighthousesignup.JPG" alt="Accessibility sign Up page">
 
-<img src="assets/images/lighthousesignupimprove.JPG" alt="Accessibility sign Up page">
+### fixed error messages for accessibility of Sign up page with accessibility reaching 97% after bug fixing which is excellent.
+
+<img src="assets/images/fixlighthousesignup.JPG" alt="Accessibility sign Up page">
 
   ## Bugs
 
@@ -109,12 +115,21 @@ The colours and fonts I have selected they perform well under the Light house in
 it is clear from the above snip that most of the error are comming from the white spaces between the id names. Deleting the white spaces solved the problem see sniped on the validation section above.
 remaining error message are relating to the gact that I am submitting the form to codeinstitute and it is hidden.
 
+Secondly from the lighthouse it is clear that accessibility is not at its best.  see above under accessibility for the improved corrected errors screen shot.
+
+<img src="assets/images/lighthousesignupimprove.JPG" alt="Accessibility sign Up page with some errors">
+
 ### Bugs from CSS file:
 
 <img src="assets/images/errorscss.JPG" alt="sniped of css checked with no errors or warnings to show">
 
 There are six error messages to fix as stipulated by the snip.  Letter spacing des not like persentages and float require proper values.
 refere to Validation section for an updated snip after the bugs are fixed.
+
+
+
+
+
 
   ## Unfixed Bugs
 
@@ -123,9 +138,9 @@ refere to Validation section for an updated snip after the bugs are fixed.
 Please note that most of the error messages have been fixed by simply deleting the white spaces as suggested by the validator.
 The remaining errors are relating to the fact that the actuall receiptiant is code institute and the form is hidded.
 
-### No time to increase accessibility of sign up page any further.
 
-<img src="assets/images/lighthousesignupimprove.JPG" alt="Accessibility sign Up page">
+
+
 
 
 
