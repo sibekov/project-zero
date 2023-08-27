@@ -78,9 +78,9 @@ The remaining errors are relating to the fact that the actuall receiptiant is co
 
 ###CSS VAlidator - https://jigsaw.w3.org/css-validator/
 
-<img src="assets/images/errorscss.JPG" alt="sniped of css checked with no errors or warnings to show">
+<img src="assets/images/fixerrorscss.JPG" alt="sniped of css checked with no errors">
 
-
+Please note that 6 errors have been fixed already see section Bugs for details.  I am leaving the warning message due to time constrains.
 
 
   ## Bugs
