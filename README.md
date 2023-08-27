@@ -92,6 +92,8 @@ The colours and fonts I have selected they perform well under the Light house in
 
 <img src="assets/images/lighthousesignup.JPG" alt="Accessibility sign Up page">
 
+<img src="assets/images/lighthousesignupimprove.JPG" alt="Accessibility sign Up page">
+
   ## Bugs
 
   ### Bugs from HTML validation gallery file
@@ -120,6 +122,12 @@ refere to Validation section for an updated snip after the bugs are fixed.
 
 Please note that most of the error messages have been fixed by simply deleting the white spaces as suggested by the validator.
 The remaining errors are relating to the fact that the actuall receiptiant is code institute and the form is hidded.
+
+### No time to increase accessibility of sign up page any further.
+
+<img src="assets/images/lighthousesignupimprove.JPG" alt="Accessibility sign Up page">
+
+
 
 ## Deployment
 
