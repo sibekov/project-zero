@@ -82,6 +82,15 @@ The remaining errors are relating to the fact that the actuall receiptiant is co
 
 Please note that 6 errors have been fixed already see section Bugs for details.  I am leaving the warning message due to time constrains.
 
+### Accessibility 
+
+The colours and fonts I have selected they perform well under the Light house in devtools.
+
+<img src="assets/images/lighthouseindex.JPG" alt="Accessibility home page">
+
+<img src="assets/images/lighthousegallery.JPG" alt="Accessibility sign gallery">
+
+<img src="assets/images/lighthousesignup.JPG" alt="Accessibility sign Up page">
 
   ## Bugs
 
@@ -105,4 +114,61 @@ remaining error message are relating to the gact that I am submitting the form t
 There are six error messages to fix as stipulated by the snip.  Letter spacing des not like persentages and float require proper values.
 refere to Validation section for an updated snip after the bugs are fixed.
 
-  
+  ## Unfixed Bugs
+
+  <img src="assets/images/fixerrorshtmlsignup.JPG" alt="sniped of index html checked with no errors or warnings to show">
+
+Please note that most of the error messages have been fixed by simply deleting the white spaces as suggested by the validator.
+The remaining errors are relating to the fact that the actuall receiptiant is code institute and the form is hidded.
+
+## Deployment
+
+This website was created using code institute template and was deployed to GitHub using the following steps.
+1. Click on the reposetory
+2. Click on Settings on the menu bar
+3. From the left most side menu click pages
+4. Ensure source is deployed from a branch
+5. Under branch select Main
+6. click save , you should see message that says Git pages saved
+7. Click on Refresh
+8 your site link will show in few minutes.
+
+The live link to the website is https://github.com/sibekov/project-zero
+
+## Credits
+
+### Anna Greaves
+The code is inspired by the Love Running and Love Maths Code Institute walkthrough Project videos delivered by Full Stack Web developer and content creator, Anna Greaves.
+The form is taken from the Signup Form: Challenge 2.  
+The form is maintained and is submitting to code institute. And when all is completed and submitted it returns feedback like the below.
+
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/
+
+ <img src="assets/images/forminputreference.JPG" alt="sniped for entering details on the form">
+
+ The below is what code institute will receive:
+
+
+  <img src="assets/images/outputform.JPG" alt="sniped for entering details on the form">
+
+
+### Google fonts
+
+The fonts used on the site were taken from Google fonts website https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap to make the text look more appealing
+
+### AMI Responsive
+
+This helped right in the introduction of my readme and through out development to see how the site lookes on different screen sizes.
+
+https://ui.dev/amiresponsive?url=https://sibekov.github.io/project-zero/index.html
+
+### Pexels
+
+I am greateful for the beautiful background picture under the sign UP page obtained from pexels at 
+
+https://www.pexels.com/photo/a-man-in-green-collared-shirt-wearing-hard-hat-6804255/
+
+### fontawesome
+
+All the social media icons on my footer are attributable to fontawesome, downloaded for free once i optained the unique key via email.
+https://fontawesome.com/search?m=free&o=r
